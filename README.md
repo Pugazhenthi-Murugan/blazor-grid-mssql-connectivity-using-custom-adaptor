@@ -1,10 +1,10 @@
 # Blazor DataGrid — MSSQL connectivity using CustomAdaptor
 
-A concise sample that demonstrates connecting the Blazor DataGrid to a Microsoft SQL Server (local .mdf file) using the Grid's CustomAdaptor to perform data binding and CRUD operations.
+A concise sample that demonstrates connecting the [Blazor DataGrid](https://www.syncfusion.com/blazor-components/blazor-datagrid) to a Microsoft SQL Server using the Grid's CustomAdaptor to perform data binding and CRUD operations.
 
 ## Overview
 
-This repository contains a minimal Blazor Server sample (`BlazorApp6`) showing how to wire a [Syncfusion DataGrid](https://www.syncfusion.com/blazor-components/blazor-datagrid) to a SQL Server database using a custom adaptor. It demonstrates mapping Grid actions (read, insert, update, remove) to server-side database operations against the provided `NORTHWND.MDF` sample database.
+This repository contains a minimal Blazor Server sample (`BlazorApp6`) showing how to wire a Syncfusion DataGrid to a SQL Server database using a custom adaptor. It demonstrates mapping Grid actions (read, insert, update, remove) to server-side database operations against the provided `NORTHWND.MDF` sample database.
 
 ## Contents
 
