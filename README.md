@@ -4,7 +4,7 @@ A concise sample that demonstrates connecting the Blazor DataGrid to a Microsoft
 
 ## Overview
 
-This repository contains a minimal Blazor Server sample (`BlazorApp6`) showing how to wire a Syncfusion DataGrid to a SQL Server database using a custom adaptor. It demonstrates mapping Grid actions (read, insert, update, remove) to server-side database operations against the provided `NORTHWND.MDF` sample database.
+This repository contains a minimal Blazor Server sample (`BlazorApp6`) showing how to wire a [Syncfusion DataGrid](https://www.syncfusion.com/blazor-components/blazor-datagrid) to a SQL Server database using a custom adaptor. It demonstrates mapping Grid actions (read, insert, update, remove) to server-side database operations against the provided `NORTHWND.MDF` sample database.
 
 ## Contents
 
@@ -50,8 +50,8 @@ dotnet run
 
 ## References
 
-- Syncfusion Blazor Grid documentation: https://www.syncfusion.com/blazor-components/blazor-grid
-- Syncfusion Custom Adaptor concept: https://www.syncfusion.com/kb/ (search for CustomAdaptor)
-- NORTHWIND sample database info: https://github.com/microsoft/sql-server-samples/tree/master/samples/databases/northwind
+- Demo: https://blazor.syncfusion.com/demos/datagrid/overview?theme=fluent2
+- Documentation: https://blazor.syncfusion.com/documentation/datagrid/getting-started-with-web-app
+- [Working with SQL Server in ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/working-with-sql)
 
 
