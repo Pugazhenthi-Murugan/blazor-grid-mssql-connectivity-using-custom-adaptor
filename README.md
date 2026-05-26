@@ -4,12 +4,7 @@ A concise sample that demonstrates connecting the [Blazor DataGrid](https://www.
 
 ## Overview
 
-This repository contains a minimal Blazor Server sample (`BlazorApp6`) showing how to wire a Syncfusion DataGrid to a SQL Server database using a custom adaptor. It demonstrates mapping Grid actions (read, insert, update, remove) to server-side database operations against the provided `NORTHWND.MDF` sample database.
-
-## Contents
-
-- **Sample**: A small Blazor Server app (`BlazorApp6`) that shows how to wire a DataGrid to a SQL Server database using a custom adaptor.
-- **Database**: `NORTHWND.MDF` (App_Data)
+This repository contains a minimal Blazor Server sample showing how to wire a Syncfusion DataGrid to a SQL Server database using a custom adaptor. It demonstrates mapping Grid actions (read, insert, update, remove) to server-side database operations against the provided sample database.
 
 ## Features
 
@@ -33,10 +28,12 @@ cd blazor-dataform-localization
 
 ### Run with Visual Studio
 
-1. Open `BlazorApp6.sln` in Visual Studio.
-2. In **Server Explorer**, right-click **Data Connections** and choose **Attach DB File...**. Select `BlazorApp6/App_Data/NORTHWND.MDF` to attach the sample database.
-3. Open `BlazorApp6/Data/OrderData.cs` and update the connection string to match your environment.
-4. Build the solution and run the `BlazorApp6` project.
+1. Open the solution file using Visual Studio 2022 or later.
+2. Add NORTHWND.MDF database located in the App_Data folder into the project.
+3.  Open `OrderData.cs` and update the connection string.
+4. Restore the NuGet packages by rebuilding the solution.
+5. Build the project to ensure there are no compilation errors.
+6. Run the project.
 
 ### Run with .NET CLI
 
@@ -50,8 +47,8 @@ dotnet run
 
 ## References
 
+- Documentation: https://blazor.syncfusion.com/documentation/datagrid/connecting-to-database/mysql-server
 - Demo: https://blazor.syncfusion.com/demos/datagrid/overview?theme=fluent2
-- Documentation: https://blazor.syncfusion.com/documentation/datagrid/getting-started-with-web-app
-- [Working with SQL Server in ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/working-with-sql)
+
 
 
